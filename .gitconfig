@@ -5,6 +5,8 @@
 [credential]
 	helper = !aws codecommit credential-helper $@
 
+[pretty]
+        better-oneline = "format:%ad %C(auto)%h%d %s %Cblue[%cn]"    
 # clearly makes git better
 
 [column]
